@@ -11,8 +11,20 @@
 /* LAYOUT
 /*******************************************/
 
+main {
+  display:  flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
 
+nav > ul {
+  display: flex;
+  justify-content: space-around;
+}
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+ul {
+  list-style: none;
+}
